@@ -2,7 +2,7 @@
 
 Right now mostly just me playing around. The released median-collapsed features and metadata can be downloaded from [here](https://datapoints.ginkgo.bio/functional-genomics/gdpx3)
 
-`data/gdpx3_medians.h5ad` is pre-processed according to their protocol:
+`data/gdpx3_medians.h5ad` is post-processed according to their protocol:
 
     - Standardized with respect to container and control DMSO
     - Feature selection with PyCytominer
