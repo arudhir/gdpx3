@@ -1,0 +1,15 @@
+.DS_Store
+data/images/*
+data/ginkgo-datapoints_gdpx3_data-package
+data/median_features.csv
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
