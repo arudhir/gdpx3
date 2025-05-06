@@ -4,7 +4,7 @@ Right now mostly just me playing around. The released median-collapsed features 
 
 `data/gdpx3_medians.h5ad` is post-processed according to their protocol:
 
-    - Standardized with respect to container and control DMSO
+    - Scaled using `sklearn.preprocessing.StandardScaler` with respect to `container_id` and DMSO controls
     - Feature selection with PyCytominer
 
 ```bash
