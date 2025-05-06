@@ -1,8 +1,8 @@
 # GDPX3
 
-Right now mostly just me playing around.
+Right now mostly just me playing around. Median-collapsed features and metadata can be downloaded from [here](https://datapoints.ginkgo.bio/functional-genomics/gdpx3)
 
-You can process the `median_features.csv` file as described in the data release with:
+Pre-process according to their instructions (standardize with respect to container and DMSO controls + feature select):
 
 ```bash
 $ uv run src/process_gdpx3.py \
